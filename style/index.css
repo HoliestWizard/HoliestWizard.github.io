@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#tablist {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+#tablist button {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.slide {
+    padding: 2rem;
+    font-size: 18pt;
+}
+
+.apa-reference {
+    padding-left: 40px;
+}
+
+.apa-reference:first-letter {
+    margin-left: -40px;
+}
+
+/*#landslide-maps {*/
+/*    display: grid;*/
+/*    grid-template-rows: 50% 50%;*/
+/*    width: 75%;*/
+/*}*/
+#landslide-maps img {
+    max-width: 512px;
+    aspect-ratio: 1/1;
+}
+
+.map-with-key {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 75%;
+}
